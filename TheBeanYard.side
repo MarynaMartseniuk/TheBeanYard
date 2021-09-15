@@ -1,0 +1,1732 @@
+{
+  "id": "b6ac2b7c-ad81-4189-bbed-40d7f0487091",
+  "version": "2.0",
+  "name": "TheBeanYard",
+  "url": "https://www.thebeanyard.com",
+  "tests": [{
+    "id": "c42f7dfb-f44c-4682-9f4c-3e8876cd5bbb",
+    "name": "general",
+    "commands": [{
+      "id": "1726f271-01e2-492a-b303-afc1ca9f1d04",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a3b9757a-6274-446a-8d26-5d63892aa917",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1067x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "099ebd5f-8b7e-41cf-a9bc-5554657d586a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3192d8b1-22de-4e6e-af8f-df99e36e176a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2481c6ab-b9d4-446b-ad76-840be94fb4af",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1628118170633_3146", "id"],
+        ["css=#yui_3_17_2_1_1628118170633_3146", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628118170633_3146']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628118170633_3147']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6790a48-3326-4ba8-9941-9e343f7ff15b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_655", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_655", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_655']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3057e51e-6069-4104-8ff8-3a2c81e5b9a5",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "230ed434-a044-447f-a61d-694a10b13665",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c786383b-2009-4fb3-a35c-bc57a7134eb9",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_673", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_673", "css:finder"],
+        ["xpath=(//a[contains(text(),'About Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_673']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_674']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#about-the-bean-yard-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9094733f-8c39-4e4a-86c1-6428a038db28",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@alt='coffee-1548771_1920.jpg']",
+      "targets": [
+        ["css=.thumb-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='coffee-1548771_1920.jpg']", "xpath:img"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_110']/img", "xpath:idRelative"],
+        ["xpath=//figure/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48b495ea-d0e6-4e7c-8bb3-63c05a816276",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "//h1[@id='yui_3_17_2_1_1627416366066_6471']",
+      "targets": [],
+      "value": "Quality - Sustainability - Community"
+    }, {
+      "id": "d846c93f-15ae-4180-a7df-52b8f66e8164",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[contains(text(),\"Growing, roasting, brewing and serving coffee isn'\")]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6476", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6476", "css:finder"],
+        ["xpath=//p[@id='yui_3_17_2_1_1627416366066_6476']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_6477']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": "Growing, roasting, brewing and serving coffee isn't a simple process, which is why we choose to focus on quality throughout every step of making coffee. Whether it's in a bag or in a cup, we are focused on finding the highest quality fair trade, direct trade or Rainforest Alliance Certified coffee and processing it using the best methods available. "
+    }, {
+      "id": "e596038d-0655-4523-960b-2c48f97010b3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Order Online')])[4]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6508", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6508", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[4]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_6508']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_141']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://the-bean-yard.square.site/#vnBilQ')]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c528470a-5bc2-4ee0-bd68-20a7e3463f9b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Our Menus')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6530", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6530", "css:finder"],
+        ["xpath=//a[contains(text(),'Our Menus')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_6530']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_148']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/s/TBY-menu-halfsheet.pdf')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2781bd06-f7fb-4be3-8991-8474de31d707",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Meeting Spaces')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6542", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6542", "css:finder"],
+        ["xpath=//a[contains(text(),'Meeting Spaces')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_6542']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_155']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[4]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d3467b8-aef1-452e-a14b-ec1aaacfe769",
+      "comment": "",
+      "command": "click",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1627071779879-8C3YZ8CTBOPS87C0KX4S/image-asset.jpeg?format=300w\"]",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627417994541_706 > .thumb-image", "css:finder"],
+        ["xpath=//img[@alt='In honor of Pie and Beer Day, or Pioneer Day, we will be closed tomorrow. 🥧🍺 We hope y&rsquo;all enjoy your festivities and stay safe out there! \n\n#drinkingcoffeedoinggood']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_706']/img", "xpath:idRelative"],
+        ["xpath=//div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8291d46b-0549-4446-8373-598d7a504154",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04f8efdd-c31d-410b-8a2d-10f6be460b30",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a0a1a1e-0d00-4a9b-9772-2cefb01a6cc0",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c391e908-b9a7-43b8-aaf3-741880c3199a",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "762161ea-3420-412d-b151-f059cf657f53",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc961269-9213-451c-85ed-e47c367ee705",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73214a53-df7a-4e5d-9ba7-f2f08dbe7274",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4f5a231-adf6-4a87-aaac-546ad8de4167",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Next Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1112", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1112", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1112']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[3]", "xpath:idRelative"],
+        ["xpath=//a[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2fc1b1a3-95dc-4797-9ca2-0d6b3ec86772",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "99698165-98c6-4ed0-8fb2-14f421b33484",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "391ced94-80ef-4bd1-b1da-8c2a4e344086",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5abbe8f6-95f0-4aa8-b74b-d9b843be64be",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2bcc05-2dc0-40be-a826-7a27ce40c78d",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e28dafec-ac54-4b07-932b-41b3ef3360fa",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc5a0961-f2f2-4166-bf34-1285db0123d0",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d984dcbc-d0f4-4913-b52a-c2c325c3ae0d",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1430", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1430", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1430']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "996bd780-8f57-435f-8db3-ef56de6fbb5e",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Previous Item\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627417994541_1109", "id"],
+        ["css=#yui_3_17_2_1_1627417994541_1109", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627417994541_1109']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627417994541_715']/a", "xpath:idRelative"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ec53c19-036c-4d91-a1d9-f89f0ecc8c72",
+      "comment": "",
+      "command": "click",
+      "target": "//a[@aria-label=\"Close\"]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627421582838_1144", "id"],
+        ["css=#yui_3_17_2_1_1627421582838_1144", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627421582838_1144']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627421582838_699']/a", "xpath:idRelative"],
+        ["xpath=//a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b55dde7-4f4a-4174-83df-b439943edf8c",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Home')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_690", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_690", "css:finder"],
+        ["xpath=//a[contains(text(),'Home')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_690']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_691']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/#home-section')]", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3c248308-0278-44c9-ab39-598124fb68db",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b6d8a76-9c93-410d-b7fe-3ceb2fde1db5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Shop the Shop')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_706", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_706", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shop the Shop')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_706']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_707']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop-the-shop')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "003a205c-640c-4fdf-8f1c-f7e7654f49d0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='All']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d3d6273-0484-41cd-9460-02f9cc850d55",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Coffee')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_902", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_902", "css:finder"],
+        ["xpath=//a[contains(text(),'Coffee')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_902']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_903']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Coffee')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cde98d8-76e0-45c1-afab-5131692575f7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Equipment')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_910", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_910", "css:finder"],
+        ["xpath=//a[contains(text(),'Equipment')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_910']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_911']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Equipment')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "006d5363-b273-4b7f-af25-bec54fd5142e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Shirts')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_918", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_918", "css:finder"],
+        ["xpath=//a[contains(text(),'Shirts')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_918']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_919']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Shirts')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b573f6f-8c4c-44fd-8947-1361dbe4b410",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Subscription')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_926", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_926", "css:finder"],
+        ["xpath=//a[contains(text(),'Subscription')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_926']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_927']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Subscription')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2cc3984c-d1d2-4671-adb8-cc44855a36c5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[2]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415831123_877", "id"],
+        ["css=#yui_3_17_2_1_1627415831123_877", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415831123_877']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415831123_878']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "582a5d9a-5a96-432a-8da6-82e503054f87",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4d7abaca-c8fa-44f8-b1a6-ba768b9114b5",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Order Online')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415837748_644", "id"],
+        ["css=#yui_3_17_2_1_1627415837748_644", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415837748_644']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415837748_645']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/support-the-bean-yard')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d92472a7-6ff7-46fb-9f60-e32502f8ec55",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h1[text()='Supporting the Bean Yard']",
+      "targets": [
+        ["css=h1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627424352816_573']/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/h1", "xpath:position"]
+      ],
+      "value": "Supporting the Bean Yard\\n"
+    }, {
+      "id": "2304cf5a-a617-4d05-9720-c4e62e6e5003",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[2]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415840472_573", "id"],
+        ["css=#yui_3_17_2_1_1627415840472_573", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415840472_573']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415840472_574']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "994d72ca-5a98-450f-8288-a2dbbe4b2e4e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "872b4f80-958e-4618-83dc-324944315248",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Contact Us')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415846386_645", "id"],
+        ["css=#yui_3_17_2_1_1627415846386_645", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415846386_645']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415846386_646']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0c7b43d-c25e-4beb-a190-8cb281c8ea74",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//h2[text()='Contact Us']",
+      "targets": [
+        ["css=h2:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1526326905840_7507']/div/h2[2]", "xpath:idRelative"],
+        ["xpath=//h2[2]", "xpath:position"],
+        ["xpath=//h2[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "Contact Us"
+    }, {
+      "id": "bed858fa-ed3b-4c1e-a2fd-a7bff132505d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[2]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415849925_664", "id"],
+        ["css=#yui_3_17_2_1_1627415849925_664", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415849925_664']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415849925_665']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04026a98-0c8d-4c78-a8f1-9eea62308449",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28ab817e-d8ce-48c6-825a-52121e0ecb55",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//header/div/div[2]/div/nav/div[7]/a/span",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627528951414_1577 > .unauth", "css:finder"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627528951414_1577']/span", "xpath:idRelative"],
+        ["xpath=//header/div/div[2]/div/nav/div[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b09ad46-1939-45b0-b863-ab4a2072b4a4",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "xpath=//h1[contains(.,'Welcome to')]",
+      "targets": [],
+      "value": "Welcome to The Bean Yard"
+    }, {
+      "id": "8de64918-6bce-4d82-b29b-d47b6278c55c",
+      "comment": "",
+      "command": "//verifyElementPresent",
+      "target": "xpath=//span[text()='Sign in']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f4a3049-8aaa-4b86-873f-03f0a8dde5ca",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//input[@type='email']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "605a7864-a388-47e5-ac9c-76096a196f9d",
+      "comment": "",
+      "command": "//type",
+      "target": "//input[@placeholder='Email']",
+      "targets": [],
+      "value": "mm8013496836@yahoo.com"
+    }, {
+      "id": "4bff8cd2-bfa9-424d-bff8-7851d12c5c22",
+      "comment": "",
+      "command": "//click",
+      "target": "css=*[data-test=\"login-password\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e85a594c-086e-4038-b357-4e3f467784e6",
+      "comment": "",
+      "command": "//type",
+      "target": "xpath=//input[@type='password']",
+      "targets": [],
+      "value": "morskaya00"
+    }, {
+      "id": "8d0e797b-842a-452b-a40e-112e543b6688",
+      "comment": "",
+      "command": "//click",
+      "target": "css=*[data-test=\"login-button\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da1a7b76-908f-4dea-8f9f-18ca0ff8f184",
+      "comment": "",
+      "command": "//verifyText",
+      "target": "xpath=//span[contains(text(),'Hi,')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7bda95ba-378f-48af-a71e-ec230413caeb",
+      "comment": "",
+      "command": "//click",
+      "target": "xpath=//button[@class='_3Ebs3IDrl']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4e8b002-f70d-477e-aa9e-67eb357f0674",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "5dc396ef-45ad-4018-92dd-ce63576b904a",
+    "name": "TC-01-01",
+    "commands": [{
+      "id": "5cdc8b1e-ea97-4fd6-875c-a9b7e770db2e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b77e1372-67ca-456e-bbf1-204ec0410e12",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1067x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4635909d-aab8-447b-bd57-b4928c18fc7b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "4ff65040-cdb9-4218-9e4e-d3606270e961",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e6dc1b6-37b7-4939-97ba-7641f741fef7",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6e8840d-2929-43b3-a0af-d94f127c006a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1628118170633_3146", "id"],
+        ["css=#yui_3_17_2_1_1628118170633_3146", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628118170633_3146']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628118170633_3147']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "934644ad-3b46-402e-bb98-c3211441b657",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_655", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_655", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_655']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81dafa95-acec-4c2a-9665-b9c19efce906",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9ea2a6c9-8163-4de8-a6cf-999a788f721b",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c26d4a22-76ba-4565-b2bd-1313f627886f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_673", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_673", "css:finder"],
+        ["xpath=(//a[contains(text(),'About Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_673']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_674']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#about-the-bean-yard-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "50c41a9c-6b87-4abc-9e79-c24e88595e4a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@alt='coffee-1548771_1920.jpg']",
+      "targets": [
+        ["css=.thumb-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='coffee-1548771_1920.jpg']", "xpath:img"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_110']/img", "xpath:idRelative"],
+        ["xpath=//figure/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe7d433-1dfd-48e5-9bb5-813670a93557",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),'Quality - Sustainability - Community')]",
+      "targets": [],
+      "value": "Quality - Sustainability - Community"
+    }, {
+      "id": "41930b42-513d-44a7-99aa-50ced9b12091",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[contains(text(),\"Growing, roasting, brewing and serving coffee isn'\")]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6476", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6476", "css:finder"],
+        ["xpath=//p[@id='yui_3_17_2_1_1627416366066_6476']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_6477']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": "Growing, roasting, brewing and serving coffee isn't a simple process, which is why we choose to focus on quality throughout every step of making coffee. Whether it's in a bag or in a cup, we are focused on finding the highest quality fair trade, direct trade or Rainforest Alliance Certified coffee and processing it using the best methods available. "
+    }, {
+      "id": "d697956b-d656-4f13-a432-5967490a0d2e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Shop the Shop')])[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6f74c65-7b19-4d54-bdd0-ea93a0836383",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Shop the Shop')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_706", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_706", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shop the Shop')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_706']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_707']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop-the-shop')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d5f93e0-17ca-43ae-8aba-34d9d807fc8f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Shop the Bean Yard — The Bean Yard",
+      "targets": [],
+      "value": "Shop the Bean Yard — The Bean Yard"
+    }, {
+      "id": "c7ac7946-9225-4de1-90ff-797b5ba22457",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='All']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f4d8c45c-45a1-4047-8542-a33c146eeec3",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Coffee')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_902", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_902", "css:finder"],
+        ["xpath=//a[contains(text(),'Coffee')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_902']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_903']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Coffee')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ed3f378a-def2-4e13-a9ad-c519b22405e9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Equipment')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_910", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_910", "css:finder"],
+        ["xpath=//a[contains(text(),'Equipment')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_910']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_911']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Equipment')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5addbde-9d7e-4ca8-829e-4dc4e6fc6a55",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Shirts')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_918", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_918", "css:finder"],
+        ["xpath=//a[contains(text(),'Shirts')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_918']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_919']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Shirts')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22cb0fc1-4c13-4dc8-bf5b-e133003e3dd8",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Subscription')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_926", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_926", "css:finder"],
+        ["xpath=//a[contains(text(),'Subscription')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_926']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_927']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Subscription')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b155ce-04e8-4c9b-b212-d66892be0885",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Order Online')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1628199595943_917", "id"],
+        ["css=#yui_3_17_2_1_1628199595943_917", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628199595943_917']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628199595943_918']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/support-the-bean-yard')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ba08640-fe65-4293-a0c0-7a6e571cf318",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Order Online')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415837748_644", "id"],
+        ["css=#yui_3_17_2_1_1627415837748_644", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415837748_644']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415837748_645']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/support-the-bean-yard')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3f770a8-3f60-438b-976e-dcdc2d8b1b09",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Order Online — The Bean Yard",
+      "targets": [],
+      "value": "Order Online — The Bean Yard"
+    }, {
+      "id": "433e8fda-d201-4061-ba12-efc52f327de7",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[text()='Supporting the Bean Yard']",
+      "targets": [
+        ["css=h1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627424352816_573']/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/h1", "xpath:position"]
+      ],
+      "value": "Supporting the Bean Yard"
+    }, {
+      "id": "4bcd4721-ed1a-408c-827b-284ae366e0da",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[contains(text(),\"We at the Bean Yard understand that we live in strange times\")]",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1584639846606_54312 > .sqs-block-content > p:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1584639846606_54312']/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"]
+      ],
+      "value": "We at the Bean Yard understand that we live in strange times. As the COVID-19 prevention protocols continue to change the landscape in which we operate, we are hard at work trying to keep our customers and employees our top priority. "
+    }, {
+      "id": "e2b0d8b0-22df-4c40-9172-0030adc3605e",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Contact Us')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1628200712051_621", "id"],
+        ["css=#yui_3_17_2_1_1628200712051_621", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628200712051_621']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628200712051_622']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87c59691-7b40-4266-9ece-a214f3bcc7ef",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Contact Us')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415846386_645", "id"],
+        ["css=#yui_3_17_2_1_1627415846386_645", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415846386_645']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415846386_646']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "337ec63e-8b17-44b1-9f71-6f9ece6a7a59",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Contact Us — The Bean Yard",
+      "targets": [],
+      "value": "Contact Us — The Bean Yard"
+    }, {
+      "id": "96897ae1-6d3c-44ff-b43a-090f33087936",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h2[contains(.,'Contact Us')]",
+      "targets": [
+        ["css=h2:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1526326905840_7507']/div/h2[2]", "xpath:idRelative"],
+        ["xpath=//h2[2]", "xpath:position"],
+        ["xpath=//h2[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "Contact Us"
+    }, {
+      "id": "1ab62f41-5a4b-4783-9a60-844e1d4afcf8",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),\"Come on By\")]",
+      "targets": [
+        ["css=.sqs-block-content > h1", "css:finder"],
+        ["xpath=//div[@id='block-3adb253023c700347ed4']/div/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/h1", "xpath:position"]
+      ],
+      "value": "Come on By"
+    }, {
+      "id": "1ea18005-c149-4a4e-9b45-74865d3648c0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//span[contains(text(),'Sign In')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bf678906-04e0-44f4-a457-a44e5fcedf3a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(),'Sign In')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1628205156486_640", "id"],
+        ["css=#yui_3_17_2_1_1628205156486_640", "css:finder"],
+        ["xpath=//span[@id='yui_3_17_2_1_1628205156486_640']", "xpath:attributes"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628205156486_638']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/nav/div[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ee7b367-4f53-4f50-85de-91de56b28014",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),'Welcome to The Bean Yard')]",
+      "targets": [],
+      "value": "Welcome to The Bean Yard"
+    }, {
+      "id": "27fb89a8-40e9-40ea-ba95-7a6ebe0d1a5f",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href=\"/account/login/request-reset\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7baf582-06c7-4c80-b8a4-458a941cfd93",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Sign In",
+      "targets": [],
+      "value": "Sign In"
+    }, {
+      "id": "be240070-da5b-4b8f-b42b-c41b16e500e2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "63c9a790-59fd-491a-9f93-894816223bc4",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8b83a0a-1361-47a9-9c5c-980b28dde376",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "73b5874f-48c3-4610-bb85-2bdb8fcfece7",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "fa0d1644-41a1-45b1-9479-1c2e8bf21581",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "a733c734-b1f0-4c4b-afc7-d683e4ebcece",
+    "name": "TC-01-xx Verification LOGO for each MENU BUTTON",
+    "commands": [{
+      "id": "b0d49474-9792-4684-b4ed-670f79fe85dd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8017478e-56d0-40c3-ab63-38152dcbf6dd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1067x793",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "369e0e66-6947-42c2-b4b7-8781a1ff920b",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "a3ee114c-5e02-49e0-9591-82cbe3dea1eb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ca0939b-dc2f-4f3d-b7a4-bf9cff350070",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "279c0c7e-3cfd-43ec-8a09-9e09e526f7ec",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1628118170633_3146", "id"],
+        ["css=#yui_3_17_2_1_1628118170633_3146", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628118170633_3146']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628118170633_3147']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34ee66bc-ae4b-49c2-b645-36348dcb8d3e",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Home')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_655", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_655", "css:finder"],
+        ["xpath=(//a[contains(text(),'Home')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_655']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_656']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#home-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70d3d34e-50c8-4c1c-93cf-45a84c74202d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@src=\"https://images.squarespace-cdn.com/content/v1/5a5d1b3632601e4261d071bf/1622578980805-60U875G4PSO8ALQML0FD/Squarespace_Banner_Image.jpg?format=2500w\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "844ce4c0-9283-4686-b15a-381a46216aad",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2a448973-54c1-4fba-a058-da2582791b39",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca3b6014-cfc1-429a-b864-9a10f0425d96",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "2fe27fd1-56b5-490b-9672-f643d2f858a1",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b126b45b-a3f8-4802-906b-81090db8238a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'About Us')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_673", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_673", "css:finder"],
+        ["xpath=(//a[contains(text(),'About Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_673']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_674']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/#about-the-bean-yard-section')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1669471-2e99-4cfe-82d0-8d0d5d6ccf34",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//img[@alt='coffee-1548771_1920.jpg']",
+      "targets": [
+        ["css=.thumb-image:nth-child(2)", "css:finder"],
+        ["xpath=//img[@alt='coffee-1548771_1920.jpg']", "xpath:img"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_110']/img", "xpath:idRelative"],
+        ["xpath=//figure/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fc73291-4bb9-4cd5-a3a3-2d76ab783d77",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),'Quality - Sustainability - Community')]",
+      "targets": [],
+      "value": "Quality - Sustainability - Community"
+    }, {
+      "id": "040934a7-6896-4f10-958b-ee5d6d4a358e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[contains(text(),\"Growing, roasting, brewing and serving coffee isn'\")]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627416366066_6476", "id"],
+        ["css=#yui_3_17_2_1_1627416366066_6476", "css:finder"],
+        ["xpath=//p[@id='yui_3_17_2_1_1627416366066_6476']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627416366066_6477']/p", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/p", "xpath:position"]
+      ],
+      "value": "Growing, roasting, brewing and serving coffee isn't a simple process, which is why we choose to focus on quality throughout every step of making coffee. Whether it's in a bag or in a cup, we are focused on finding the highest quality fair trade, direct trade or Rainforest Alliance Certified coffee and processing it using the best methods available. "
+    }, {
+      "id": "be59b3d3-106e-4f8d-8863-0308147ca9b9",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bedec41-c0cc-44c3-9707-0c920b161dca",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a67e1a96-0d77-48c1-9747-35af4ab539b6",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "f88161f6-89bf-4303-906b-93c8e92b7998",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Shop the Shop')])[3]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f0e6d984-5e71-4a2f-8b0f-ec1e2fdd67fe",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Shop the Shop')])[3]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415799519_706", "id"],
+        ["css=#yui_3_17_2_1_1627415799519_706", "css:finder"],
+        ["xpath=(//a[contains(text(),'Shop the Shop')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415799519_706']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415799519_707']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/shop-the-shop')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "690024a4-5076-459b-b6d1-fd74a4b041f8",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Shop the Bean Yard — The Bean Yard",
+      "targets": [],
+      "value": "Shop the Bean Yard — The Bean Yard"
+    }, {
+      "id": "e3ccafa8-e759-49c6-87fb-3de857f25818",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "//a[text()='All']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6169532b-0a5d-4713-bc50-861eb1d619ed",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Coffee')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_902", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_902", "css:finder"],
+        ["xpath=//a[contains(text(),'Coffee')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_902']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_903']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Coffee')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "156a2651-9a14-4220-8056-8245ed2810cf",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Equipment')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_910", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_910", "css:finder"],
+        ["xpath=//a[contains(text(),'Equipment')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_910']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_911']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Equipment')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765bd01c-a408-4ce6-9cd0-d58b598a5544",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Shirts')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_918", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_918", "css:finder"],
+        ["xpath=//a[contains(text(),'Shirts')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_918']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_919']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Shirts')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "204428fb-eedc-4310-8b70-ad869acaf3a0",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[contains(text(),'Subscription')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1627423689508_926", "id"],
+        ["css=#yui_3_17_2_1_1627423689508_926", "css:finder"],
+        ["xpath=//a[contains(text(),'Subscription')]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627423689508_926']", "xpath:attributes"],
+        ["xpath=//li[@id='yui_3_17_2_1_1627423689508_927']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/shop-the-shop?category=Subscription')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0359cc92-c8df-4911-8fd3-30dac57c548d",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81a19482-90e2-4d7e-8df9-8df2f21f3edd",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3611a714-9907-4875-8234-ee5e5018f973",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "16796bba-17ff-4bcf-a206-ea9833a69b15",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Order Online')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1628199595943_917", "id"],
+        ["css=#yui_3_17_2_1_1628199595943_917", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628199595943_917']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628199595943_918']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/support-the-bean-yard')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "70b44474-208f-4741-869c-99f44992d86d",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Order Online')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415837748_644", "id"],
+        ["css=#yui_3_17_2_1_1627415837748_644", "css:finder"],
+        ["xpath=(//a[contains(text(),'Order Online')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415837748_644']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415837748_645']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/support-the-bean-yard')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5b4d89a1-1ba8-4474-bd6c-b8808168ecd8",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Order Online — The Bean Yard",
+      "targets": [],
+      "value": "Order Online — The Bean Yard"
+    }, {
+      "id": "4942ca2c-5e4e-47ac-a4f8-fc4fb4dd9f2e",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[text()='Supporting the Bean Yard']",
+      "targets": [
+        ["css=h1:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627424352816_573']/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/h1", "xpath:position"]
+      ],
+      "value": "Supporting the Bean Yard"
+    }, {
+      "id": "c7609f4f-4dc8-44a7-88d4-299f46d4f87f",
+      "comment": "",
+      "command": "verifyText",
+      "target": "//p[contains(text(),\"We at the Bean Yard understand that we live in strange times\")]",
+      "targets": [
+        ["css=#block-yui_3_17_2_1_1584639846606_54312 > .sqs-block-content > p:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1584639846606_54312']/div/p", "xpath:idRelative"],
+        ["xpath=//div[3]/div/p", "xpath:position"]
+      ],
+      "value": "We at the Bean Yard understand that we live in strange times. As the COVID-19 prevention protocols continue to change the landscape in which we operate, we are hard at work trying to keep our customers and employees our top priority. "
+    }, {
+      "id": "78f5aeb8-a3a3-41ce-8f07-19b4d46b2464",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7df01fc3-a752-4c6f-a50c-1723e3e640fc",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fd7d873-c54d-4431-bb99-108378805ac3",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "b7a667f0-79ff-403a-9a04-d8b07f81fe29",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=(//a[contains(text(),'Contact Us')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1628200712051_621", "id"],
+        ["css=#yui_3_17_2_1_1628200712051_621", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[2]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628200712051_621']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1628200712051_622']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/nav/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d118b65-916a-4229-bf93-8ab458b4c86a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[contains(text(),'Contact Us')])",
+      "targets": [
+        ["id=yui_3_17_2_1_1627415846386_645", "id"],
+        ["css=#yui_3_17_2_1_1627415846386_645", "css:finder"],
+        ["xpath=(//a[contains(text(),'Contact Us')])[3]", "xpath:link"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627415846386_645']", "xpath:attributes"],
+        ["xpath=//div[@id='yui_3_17_2_1_1627415846386_646']/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/contact-us')])[3]", "xpath:href"],
+        ["xpath=//header/div/div[2]/div/nav/div[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c7cf72a-b544-4855-a67f-4a6253a6c418",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Contact Us — The Bean Yard",
+      "targets": [],
+      "value": "Contact Us — The Bean Yard"
+    }, {
+      "id": "a34aba23-526a-4cb8-8af4-b182c418aef6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h2[contains(.,'Contact Us')]",
+      "targets": [
+        ["css=h2:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='block-yui_3_17_2_1_1526326905840_7507']/div/h2[2]", "xpath:idRelative"],
+        ["xpath=//h2[2]", "xpath:position"],
+        ["xpath=//h2[contains(.,'Contact Us')]", "xpath:innerText"]
+      ],
+      "value": "Contact Us"
+    }, {
+      "id": "ffa539dc-58a6-48f9-aae6-13171fb2b713",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),\"Come on By\")]",
+      "targets": [
+        ["css=.sqs-block-content > h1", "css:finder"],
+        ["xpath=//div[@id='block-3adb253023c700347ed4']/div/h1", "xpath:idRelative"],
+        ["xpath=//div/div/div/h1", "xpath:position"]
+      ],
+      "value": "Come on By"
+    }, {
+      "id": "1abb18ab-0b24-4ff9-9aa1-78c443e0518a",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "970beeb1-a382-471a-84bf-58f3411f9908",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68d0b2e9-0603-4ef8-a7aa-db0974008e7f",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "3fade7de-a4a3-4c6d-80ef-95bdf98bc6ca",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//span[contains(text(),'Sign In')]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2263f427-6955-4e02-bf35-c2a518ae9c7a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//span[contains(text(),'Sign In')]",
+      "targets": [
+        ["id=yui_3_17_2_1_1628205156486_640", "id"],
+        ["css=#yui_3_17_2_1_1628205156486_640", "css:finder"],
+        ["xpath=//span[@id='yui_3_17_2_1_1628205156486_640']", "xpath:attributes"],
+        ["xpath=//a[@id='yui_3_17_2_1_1628205156486_638']/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/nav/div[7]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f69da4c-f6f2-4405-8164-1fd0c2f7db43",
+      "comment": "",
+      "command": "verifyText",
+      "target": "xpath=//h1[contains(text(),'Welcome to The Bean Yard')]",
+      "targets": [],
+      "value": "Welcome to The Bean Yard"
+    }, {
+      "id": "d8877757-3522-4bce-bb76-d0189f3ca4cb",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//a[@href=\"/account/login/request-reset\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f49d54cb-c052-49ba-b8d0-66d4aa45dee6",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Sign In",
+      "targets": [],
+      "value": "Sign In"
+    }, {
+      "id": "7fa21320-86e7-43c2-ba7f-21bebcef1a51",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.history.back()",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8d91fda-5e9f-44cc-9239-6bf3d299a6b6",
+      "comment": "",
+      "command": "verifyElementPresent",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [
+        ["css=#yui_3_17_2_1_1627416366066_694 > img", "css:finder"],
+        ["xpath=//img[@alt='The Bean Yard']", "xpath:img"],
+        ["xpath=//a[@id='yui_3_17_2_1_1627416366066_694']/img", "xpath:idRelative"],
+        ["xpath=//a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28796d22-921e-48a6-a21f-96eca6fd0d9b",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//img[@alt='The Bean Yard']",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "050c9c6c-d503-439a-8e2e-20e097d312b1",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "The Bean Yard",
+      "targets": [],
+      "value": "The Bean Yard"
+    }, {
+      "id": "e53833d7-c996-48ff-8be9-746c913ae195",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "4ec44e15-9244-4d65-bec4-94ceb09a55cf",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c42f7dfb-f44c-4682-9f4c-3e8876cd5bbb"]
+  }],
+  "urls": ["https://www.thebeanyard.com/"],
+  "plugins": []
+}
